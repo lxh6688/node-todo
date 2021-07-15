@@ -1,8 +1,14 @@
 {
-  "name": "node-todo",
+  "name": "todo-by-node",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "version": "1.0.0",
   "description": "",
-  "main": "cli.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^3.0.2",
-    "inquirer": "^8.1.1"
+    "inquirer": "^8.1.1",
+    "nrm": "^1.2.1"
   }
 }
